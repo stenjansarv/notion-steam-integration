@@ -12,7 +12,7 @@ export default [
     files: ['**/*.{js,ts}'],
     rules: {
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
-      '@stylistic/semi': ['error', 'never'],
+      '@stylistic/semi': ['error', 'always'],
       '@stylistic/indent': ['error', 2],
       '@stylistic/indent-binary-ops': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
