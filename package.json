@@ -4,7 +4,7 @@
   "description": "A Steam Integration for Notion",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "tsc"
   },
   "keywords": [],
   "author": "",
